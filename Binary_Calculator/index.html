@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/binaryCalculator.css">
+</head>
+
+<body>
+    <h2>Binary Calculator</h2>
+    <p>First number must be larger than Second one</p>
+    <div type="input" id="res">
+
+    </div>
+    <div id="btns">
+        <button id="btn0" onclick="writeDigit0()">0</button>
+        <button id="btn1" onclick="writeDigit1()">1</button>
+        <button id="btnClr" onclick="cancel()">C</button>
+        <button id="btnEql" onclick="performOperations()">=</button>
+        <button id="btnSum" onclick="writeSum()">+</button>
+        <button id="btnSub" onclick="writeSub()">-</button>
+        <button id="btnMul" onclick="writeMul()">*</button>
+        <button id="btnDiv" onclick="writeDiv()">/</button>
+    </div>
+
+    <script src="js/binaryCalculator.js"></script>
+</body>
+
+</html>
